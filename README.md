@@ -1,6 +1,6 @@
 # Python_lab
 
-## Part A
+## Part A.
 1. Write a Python program to declare variables, perform arithmetic operations, and
 display results.
 2. Create a program to check if a number is even or odd using if-else.
