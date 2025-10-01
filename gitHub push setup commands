@@ -1,0 +1,11 @@
+git init → Initialize
+
+git add . → Stage changes
+
+git commit -m "msg" → Commit
+
+git remote add origin <url> → Connect GitHub
+
+git branch -M main → Set branch
+
+git push -u origin main → Push to GitHub
