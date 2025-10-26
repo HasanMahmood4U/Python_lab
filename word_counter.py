@@ -38,8 +38,6 @@ def count_word_occurrences(text):
 
     return word_counts
 
-# --- Example Usage ---
-
 input_string = (
     "The quick brown fox jumps over the lazy dog. "
     "The fox is quick, but the dog is very lazy."
