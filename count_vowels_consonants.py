@@ -11,7 +11,7 @@
 # Read a string from the user (keeps spaces and punctuation as entered)
 text = input("Enter a string: ")
 
-# Define the set of vowels for quick membership checks (lowercase for simplicity)
+# Define the set of vowels for quick membership checks (lowercase for simplicity2
 vowels_set = set("aeiou")
 
 # Initialize counters
