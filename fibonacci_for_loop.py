@@ -1,19 +1,29 @@
 # Program: Print first n Fibonacci numbers using a for loop
-# --------------------------------------------------------
-# The Fibonacci sequence starts with 0 and 1. Each next number is the sum of the
-# previous two numbers: 0, 1, 1, 2, 3, 5, 8, ...
-# This script reads n from the user and prints the first n numbers of the sequence.
+# Safe input handling & user-friendly messages
 
-# Read number of terms (n) from the user and convert to integer
-n = int(input("Enter how many Fibonacci numbers to print (n): "))
+MAX_N = 1000  # optional safety limit to avoid extremely large output
 
-# Initialize the first two Fibonacci numbers
-a = 0
-b = 1
+# Read number of terms (n) from the user with validation
+while True:
+    raw = input("Enter how many Fibonacci numbers to print (n): ").strip()
+    try:
+        n = int(raw)
+        if n < 0:
+            print("Please enter a non-negative integer (0 or greater).")
+            continue
+        if n > MAX_N:
+            print(f"Please enter a smaller number (<= {MAX_N}).")
+            continue
+        break
+    except ValueError:
+        print("Invalid input — please enter a valid integer (e.g. 10).")
 
-# Use a for loop to print n terms
-for _ in range(n):
-    print(a)
-    # Update the pair: next term becomes a+b, shift forward
-    a, b = b, a + b
-
+# If n is 0, nothing to print (or you can print a message)
+if n == 0:
+    print("No numbers to show (n = 0).")
+else:
+    a, b = 0, 1
+    print(f"First {n} Fibonacci number{'s' if n>1 else ''}:")
+    for _ in range(n):
+        print(a)
+        a, b = b, a + b
