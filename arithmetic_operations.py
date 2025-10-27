@@ -1,4 +1,4 @@
-# Program to declare variables and perform arithmetic operations
+# Program to declare variables and perform arithmetic operations and so on
 a = 10
 b = 5
 
