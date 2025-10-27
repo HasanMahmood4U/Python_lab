@@ -18,9 +18,4 @@ if num % 2 == 0:
     print(num, "is Even")
 else:
     print(num, "is Odd")
-
-# Notes:
-# - If you input a non-integer (like letters), int(...) will raise a ValueError.
-#   To make this more robust, you could wrap the conversion in a try/except.
-# - Another fast method is to use bitwise AND: (num & 1) == 0 means Even.
-
+ 
