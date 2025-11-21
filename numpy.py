@@ -15,4 +15,4 @@ print("\nOriginal Array C:\n", C)
 # Reshape to 2x3 array
 D = C.reshape(2, 3)
 print("\nReshaped Array D (2x3):\n", D)
-# Reshape to 2x3 arra
+# Reshape to 2x3 array
