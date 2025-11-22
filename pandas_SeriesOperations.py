@@ -19,7 +19,7 @@ print("\nMultiple labels:\n", data[['a', 'c', 'e']])
 print("\nSlicing by label:\n", data['b':'d'])   # Includes both start and end labels
 print("\nSlicing by position:\n", data[1:4])     # End index is excluded
 
-# ------
+# -
 # Querying Operations
 print("\nQuery: values greater than 30:\n", data[data > 30])
 print("\nQuery: even numbers:\n", data[data % 2 == 0])
