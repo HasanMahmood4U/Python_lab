@@ -13,7 +13,7 @@ print("Indexing by position:", data[2])      # Access element at index position 
 # Multiple index labels
 print("\nMultiple labels:\n", data[['a', 'c', 'e']])
 
-# -------------------------
+# --------
 # Slicing Operations
 # -------------------------g
 print("\nSlicing by label:\n", data['b':'d'])   # Includes both start and end labels
