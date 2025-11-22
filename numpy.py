@@ -2,7 +2,7 @@
 print("Array A:", A)
 print("Array B:", B)
 
-# Element-wise operations
+# Element-wise operations in below
 print("\nElement-wise Addition:", A + B)
 print("Element-wise Subtraction:", A - B)
 print("Element-wise Multiplication:", A * B)
