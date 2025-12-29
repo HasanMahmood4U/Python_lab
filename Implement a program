@@ -1,0 +1,22 @@
+import pandas as pd
+
+# 1. Create a sample dataset
+data = {
+    'Category': ['Electronics', 'Clothing', 'Electronics', 'Home', 'Clothing', 'Electronics'],
+    'Sales': [1200, 300, 800, 500, 450, 1500],
+    'Profit': [150, 50, 100, 60, 75, 200]
+}
+
+df = pd.DataFrame(data)
+
+# 2. Group by 'Category' and calculate summary statistics
+# We'll calculate the mean, sum, and count for each group
+summary = df.groupby('Category').agg({
+    'Sales': ['sum', 'mean', 'count'],
+    'Profit': ['sum', 'mean']
+})
+
+# 3. Clean up the column names for readability
+summary.columns = ['Total_Sales', 'Avg_Sales', 'Transaction_Count', 'Total_Profit', 'Avg_Profit']
+
+print(summary)
