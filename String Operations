@@ -1,0 +1,27 @@
+def count_word_frequencies(text):
+    # 1. Convert to lowercase and remove basic punctuation
+    # This replaces common punctuation with nothing
+    for char in "-.,!?:;":
+        text = text.replace(char, "")
+    
+    words = text.lower().split()
+    
+    # 2. Use a dictionary to store counts
+    word_counts = {}
+    
+    for word in words:
+        if word in word_counts:
+            word_counts[word] += 1
+        else:
+            word_counts[word] = 1
+            
+    return word_counts
+
+# Example Usage:
+input_string = "Coding is fun, and coding in Python is even more fun!"
+result = count_word_frequencies(input_string)
+
+print(f"{'Word':<12} | {'Count'}")
+print("-" * 20)
+for word, count in result.items():
+    print(f"{word:<12} | {count}")
