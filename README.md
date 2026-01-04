@@ -3,15 +3,16 @@
 ## Part A.
 
 
-1.Write a Python program to declare variables, perform arithmetic operations, and
+1. Write a Python program to declare variables, perform arithmetic operations, and
 display results.
-2.Create a program to check if a number is even or odd using if-else.
+
+2. Create a program to check if a number is even or odd using if-else.
 3.Write a Python program to print the first n Fibonacci numbers using a for loop.
 4. Implement a program that accepts a string and counts the number of vowels and
 consonants.
-5.Create a program to store student details in a dictionary and retrieve details based on
+5. Create a program to store student details in a dictionary and retrieve details based on
 user input.
-6.Demonstrate the use of break, continue, and pass in loops.
+6. Demonstrate the use of break, continue, and pass in loops.
 7. Write a program to create NumPy arrays, perform element-wise operations, and
 reshape arrays.
 8. Create a Pandas Series and perform indexing, slicing, and querying operations.
