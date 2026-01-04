@@ -17,6 +17,7 @@ reshape arrays.
 10. Write a program to handle missing values by filling them with mean/median values. 
 
 ## Part B
+
 1. String Operations: Write a program to count the occurrences of each word in a given
 string.
 2. Implement a program to insert, delete, and update elements in a list.
