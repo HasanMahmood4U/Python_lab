@@ -2,10 +2,8 @@
 
 ## Part A.
 
-
 1. Write a Python program to declare variables, perform arithmetic operations, and
 display results.
-
 2. Create a program to check if a number is even or odd using if-else.
 3.Write a Python program to print the first n Fibonacci numbers using a for loop.
 4. Implement a program that accepts a string and counts the number of vowels and
@@ -30,6 +28,7 @@ string.
 6. Write a program to read and write student marks into a text file and display the
 contents.
 7. Plot a line graph and a bar chart using Matplotlib.
-8. Write a program to load a CSV file into Pandas and perform basic data analysis.
-9. Implement a program to group a dataset by category and calculate summary statistics.
-10. Load a dataset from Scikit-learn and display its basic properties
+8. 
+9. Write a program to load a CSV file into Pandas and perform basic data analysis.
+10. Implement a program to group a dataset by category and calculate summary statistics.
+11. Load a dataset from Scikit-learn and display its basic properties
